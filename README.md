@@ -54,7 +54,7 @@ X5Sentry is an autonomous Cross-Site Scripting hunter built on an agentic AI arc
 
 The scanner covers **Reflected**, **Stored**, **DOM-based**, **Mutation (mXSS)**, and **Blind XSS** vectors. All critical findings are validated through Playwright headless browser execution.
 
-Reconnaissance is handled by the integrated [Hellhound Spider](https://github.com/l4zz3rj0d/Hellhound-Spider) (~9,400 lines) — a deep SPA-rendering crawler with WAF/CDN fingerprinting, TLS inspection, DNS intelligence, tech-stack profiling, and Wayback Machine enumeration.
+Reconnaissance is handled by the integrated [Hellhound Spider](https://github.com/projecthellhound/Hellhound-Spider) (~9,400 lines) — a deep SPA-rendering crawler with WAF/CDN fingerprinting, TLS inspection, DNS intelligence, tech-stack profiling, and Wayback Machine enumeration.
 
 ---
 
@@ -63,7 +63,7 @@ Reconnaissance is handled by the integrated [Hellhound Spider](https://github.co
 ### Quick Setup
 
 ```bash
-git clone https://github.com/project-hellhound-org/X5Sentry.git
+git clone https://github.com/projecthellhound/X5Sentry.git
 cd X5Sentry
 chmod +x install.sh
 ./install.sh
